@@ -27,7 +27,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Ab.Analyzers.CodeFixes\Ab.Analyzers.CodeFixes.csproj" />
     <ProjectReference Include="..\Ab.Analyzers\Ab.Analyzers.csproj" />
   </ItemGroup>
 
@@ -38,7 +37,6 @@
   <Target Name="_AddAnalyzersToOutput">
     <ItemGroup>
       <TfmSpecificPackageFile Include="$(OutputPath)\Ab.Analyzers.dll" PackagePath="analyzers/dotnet/cs" />
-      <TfmSpecificPackageFile Include="$(OutputPath)\Ab.Analyzers.CodeFixes.dll" PackagePath="analyzers/dotnet/cs" />
     </ItemGroup>
   </Target>
 

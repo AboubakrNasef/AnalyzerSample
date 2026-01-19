@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-	public class MyRequest :IRequest<string>
+	public class MyRequest : IRequest<string>
 	{
 	}
 
-	public class MyRequestHandler : IRequestHandler<MyRequest, string>
-	{
-	}
+	//public class MyRequestHandler : IRequestHandler<MyRequest, string>
+	//{
+	//}
 }

@@ -1,11 +1,7 @@
 <Solution>
   <Folder Name="/Analyzer/">
-    <Project Path="Ab.Analyzers/Ab.Analyzers.CodeFixes/Ab.Analyzers.CodeFixes.csproj" />
     <Project Path="Ab.Analyzers/Ab.Analyzers.Package/Ab.Analyzers.Package.csproj" />
-    <Project Path="Ab.Analyzers/Ab.Analyzers.Test/Ab.Analyzers.Test.csproj" />
-    <Project Path="Ab.Analyzers/Ab.Analyzers.Vsix/Ab.Analyzers.Vsix.csproj" />
     <Project Path="Ab.Analyzers/Ab.Analyzers/Ab.Analyzers.csproj" />
+    <Project Path="AbAnalyzers.Xunit.Test/AbAnalyzers.Xunit.Test.csproj" />
   </Folder>
-  <Project Path="AnalyzerSample/Models.csproj" />
-  <Project Path="ConsoleAppClient/ConsoleAppClient.csproj" />
 </Solution>
